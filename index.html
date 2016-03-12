@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>2016 Movie Trailers</title>
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="icon" href="images/favicon-film.ico">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <style type="text/css" media="screen">
+        body {
+            padding-top: 80px;
+        }
+        #trailer .modal-dialog {
+            margin-top: 200px;
+            width: 640px;
+            height: 480px;
+        }
+        .hanging-close {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            z-index: 9001;
+        }
+        #trailer-video {
+            width: 100%;
+            height: 100%;
+        }
+        .movie-tile {
+            margin-bottom: 20px;
+            padding-top: 20px;
+        }
+        .movie-tile:hover {
+            background-color: #EEE;
+            cursor: pointer;
+        }
+        .scale-media {
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+        .scale-media iframe {
+            border: none;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: white;
+        }
+    </style>
+    <script type="text/javascript" charset="utf-8">
+        // Pause the video when the modal is closed
+        $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
+            // Remove the src so the player itself gets removed, as this is the only
+            // reliable way to ensure the video stops playing in IE
+            $("#trailer-video-container").empty();
+        });
+        // Start playing the video whenever the trailer modal is opened
+        $(document).on('click', '.movie-tile', function (event) {
+            var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
+            var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
+            $("#trailer-video-container").empty().append($("<iframe></iframe>", {
+              'id': 'trailer-video',
+              'type': 'text-html',
+              'src': sourceUrl,
+              'frameborder': 0
+            }));
+        });
+        // Animate in the movies when the page loads
+        $(document).ready(function () {
+          $('.movie-tile').hide().first().show("fast", function showNext() {
+            $(this).next("div").show("fast", showNext);
+          });
+        });
+    </script>
+</head>
+
+  <body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main Page Content -->
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">2016 Movie Trailers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="-rBp6g9criY" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/e/e9/The_Nice_Guys_poster.png" width="220" height="342">
+    <h2>The Nice Guys</h2><h5>Directed by Shane Black</h5><h5>Starring: Ryan Gosling, Russell Crowe</h5><h5>May 20th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="PLLQK9la6Go" data-toggle="modal" data-target="#trailer">
+    <img src="http://static.srcdn.com/slir/w690-h1024-q90-c690:1024/wp-content/uploads/suicide-squad-poster-sweet.jpg" width="220" height="342">
+    <h2>Suicide Squad</h2><h5>Directed by David Ayerk</h5><h5>Starring: Margot Robbie, Ben Affleck, Will Smith, Jared Leto</h5><h5>August 5th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="SI2j1FHCjtM" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Knight_of_Cups_poster.jpg" width="220" height="342">
+    <h2>Knight of Cups</h2><h5>Directed by Terrence Malick</h5><h5>Starring:  Christian Bale, Cate Blanchett, Natalie Portman</h5><h5>March 4th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="9dPp1PmNc5M" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/f/f5/High_Rise_2014_Film_Poster.jpg" width="220" height="342">
+    <h2>High-Rise</h2><h5>Directed by Ben Wheatley</h5><h5>Starring: Tom Hiddleston, Jeremy Irons</h5><h5>May 13th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="1-Yw5clD4yU" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/Louder_Than_Bombs_%28film%29.jpg" width="220" height="342">
+    <h2>Louder Than Bombs</h2><h5>Directed by Joachim Trier</h5><h5>Starring: Jesse Eisenberg, Amy Ryan, Rachel Brosnahan</h5><h5>March 25th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="-osQ8VmpgXI" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/Snowden_%28film%29.jpg" width="220" height="342">
+    <h2>Snowden</h2><h5>Directed by Oliver Stone</h5><h5>Starring: Shailene Woodley, Scott Eastwood, Joseph Gordon-Levitt</h5><h5>September 16th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="fpt0tn1-54k" data-toggle="modal" data-target="#trailer">
+    <img src="http://dl9fvu4r30qs1.cloudfront.net/1d/ee/5b37bdaf4b259fffe5b845654bdd/colin-farrell-in-the-lobster.jpg" width="220" height="342">
+    <h2>The Lobster</h2><h5>Directed by Yorgos Lanthimos</h5><h5>Starring: Colin Farrell, Bob The Dog</h5><h5>March 11th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="wzyFNVbWPxI" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/Triple_9_poster.jpg" width="220" height="342">
+    <h2>Triple 9</h2><h5>Directed by John Hillcoat</h5><h5>Starring: Casey Affleck, Woody Harrelson, Aaron Paul, Kate Winslet</h5><h5>February 26th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="fis-9Zqu2Ro" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/2/20/Batman_v_Superman_poster.jpg" width="220" height="342">
+    <h2>Batman v. Superman</h2><h5>Directed by Zack Snyder</h5><h5>Starring: Ben Affleck, Henry Cavill, Gal Gadot, Jason Momoa, Michael Shannon</h5><h5>March 25th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="VG5MtenlP-A" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/a/af/The_BFG_poster.jpg" width="220" height="342">
+    <h2>The BFG</h2><h5>Directed by Steven Spielberg</h5><h5>Starring: Mark Rylance, Rebecca Hall, Jemaine Clement</h5><h5>July 1st, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="QPIOV-tCaEU" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/The_Wave_%282015_film%29.jpg" width="220" height="342">
+    <h2>The Wave</h2><h5>Directed by Roar Uthaug</h5><h5>Starring: Kristoffer Joner, Thomas Bo Larsen, Ane Dahl Torp</h5><h5>May 21st, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="iG0P6bjyUNI" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Finding_Dory.jpg" width="220" height="342">
+    <h2>Finding Dory</h2><h5>Directed by Andrew Stanton & Angus MacLane</h5><h5>Starring: Ellen DeGeneres, Diane Keaton, Kaitlin Olson</h5><h5>June 17th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="COvnHv42T-A" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/04/X-Men_-_Apocalypse.jpg" width="220" height="342">
+    <h2>X-Men: Apocalypse</h2><h5>Directed by Bryan Singer</h5><h5>Starring: Jennifer Lawrence, Michael Fassbender, Olivia Munn</h5><h5>March 4th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="wyJg4vs26Zs" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/9/95/Il_racconto_dei_racconti_poster.jpg" width="220" height="342">
+    <h2>Tale of Tales</h2><h5>Directed by Matteo Garrone</h5><h5>Starring: Salma Hayek, Vincent Cassel, Toby Jones</h5><h5>April 22nd, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="OlUkOid3TYc" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Petes_dragon_2016_film_poster.jpg" width="220" height="342">
+    <h2>Pete's Dragon</h2><h5>Directed by David Lowery</h5><h5>Starring:  Bryce Dallas Howard, Robert Redford, Karl Urban</h5><h5>August 12th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="OiEG3Zr_Jxs" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/b/b4/Alice_Through_the_Looking_Glass_%28film%29_poster.jpg" width="220" height="342">
+    <h2>Alice Through the Looking Glass</h2><h5>Directed by James Bobin</h5><h5>Starring: Johnny Depp, Sacha Baron Cohen, Anne Hathaway</h5><h5>May 27th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="Wj1devH5JP4" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Fantastic_Beasts_and_Where_to_Find_Them_poster.png" width="220" height="342">
+    <h2>Fantastic Beasts and Where to Find Them</h2><h5>Directed by David Yates</h5><h5>Starring: Eddie Redmayne, Katherine Waterston, Ezra Miller</h5><h5>Novemeber 18th, 2016</h5>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="FKSqHmQcOzk" data-toggle="modal" data-target="#trailer">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Kubo_and_the_Two_Strings_poster.png" width="220" height="342">
+    <h2>Kubo and the Two Strings</h2><h5>Directed by Travis Knight</h5><h5>Starring: Charlize Theron, Rooney Mara, Matthew McConaughey</h5><h5>June 17th, 2016</h5>
+</div>
+
+    </div>
+  </body>
+</html>
