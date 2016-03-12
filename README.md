@@ -3,7 +3,7 @@
 A simple server side application that stores a list of 2016 movies with it's poster, trailer and release date.
 
 ###Demo:
-[Click Here](http://samurairanderson.github.io/Movie-Trailers/)
+[Click Here](http://samurairanderson.github.io/Movie_Trailers/)
 
 ###Requires:
 [Python 2.7](https://www.python.org/download/releases/2.7/)
