@@ -10,7 +10,7 @@ A simple server side application that stores a list of 2016 movies with it's pos
 
 ###Running this program:
 Cole this repo:<br>
-`$ git clone https://`<br>
+`$ git clone https://github.com/SamuraiRanderson/Movie_Trailers.git`<br>
 `$ cd Movie_Trailers`<br>
 Execute this script:<br>
 `$ python entertainment_center.py`
