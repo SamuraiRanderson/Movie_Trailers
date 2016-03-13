@@ -82,7 +82,7 @@ the_bfg = media.Movie("The BFG",
                       "July 1st, 2016")
 
 the_wave = media.Movie("The Wave",
-                       "Starring: Kristoffer Joner, Thomas Bo Larsen, Ane Dahl Torp",
+                       "Starring: Kristoffer Joner, Ane Dahl Torp",
                        "Directed by Roar Uthaug",
                        "https://upload.wikimedia.org/wikipedia/en/3/3b/The_Wave_%282015_film%29.jpg",
                        "https://www.youtube.com/watch?v=QPIOV-tCaEU",
