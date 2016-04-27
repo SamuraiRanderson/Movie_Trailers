@@ -50,7 +50,7 @@ snowden = media.Movie("Snowden",
                       "Starring: Shailene Woodley, Scott Eastwood, Joseph Gordon-Levitt",
                       "Directed by Oliver Stone",
                       "https://upload.wikimedia.org/wikipedia/en/1/1a/Snowden_%28film%29.jpg",
-                      "https://www.youtube.com/watch?v=-osQ8VmpgXI",
+                      "https://www.youtube.com/watch?v=QlSAiI3xMh4",
                       "September 16th, 2016")
 
 the_lobster = media.Movie("The Lobster",
