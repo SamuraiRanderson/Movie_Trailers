@@ -11,157 +11,157 @@ import media
 #
 # """
 
-nice_guys = media.Movie("The Nice Guys",
-                        "Starring: Ryan Gosling, Russell Crowe",
-                        "Directed by Shane Black",
-                        "https://upload.wikimedia.org/wikipedia/en/e/e9/The_Nice_Guys_poster.png",
-                        "https://www.youtube.com/watch?v=-rBp6g9criY",
-                        "May 20th, 2016")
+star_wars = media.Movie("Star Wars: The Last Jedi",
+                        "Starring: Mark Hamill, Carrie Fisher, Daisy Ridley, Adam Driver",
+                        "Directed by Rian Johnson",
+                        "https://en.wikipedia.org/wiki/Star_Wars:_The_Last_Jedi#/media/File:Star_Wars_The_Last_Jedi.jpg",
+                        "https://www.youtube.com/watch?v=zB4I68XVPzQ",
+                        "December 15th, 2017")
 
-suicide_squad = media.Movie("Suicide Squad",
-                            "Starring: Margot Robbie, Ben Affleck, Will Smith, Jared Leto",
-                            "Directed by David Ayerk",
-                            "http://static.srcdn.com/slir/w690-h1024-q90-c690:1024/wp-content/uploads/suicide-squad-poster-sweet.jpg",
-                            "https://www.youtube.com/watch?v=PLLQK9la6Go",
-                            "August 5th, 2016")
+dunkirk = media.Movie("Dunkirk",
+                        "Starring: Tom Hardy, Mark Rylance, Kenneth Branagh",
+                        "Directed by Christopher Nolan",
+                        "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)#/media/File:Dunkirk_Film_poster.jpg",
+                        "https://www.youtube.com/watch?v=_cmgiys2n1o",
+                        "July 21st, 2017")
 
-knight_of_cups = media.Movie("Knight of Cups",
-                             "Starring:  Christian Bale, Cate Blanchett, Natalie Portman",
-                             "Directed by Terrence Malick",
-                             "https://upload.wikimedia.org/wikipedia/en/c/c4/Knight_of_Cups_poster.jpg",
-                             "https://www.youtube.com/watch?v=SI2j1FHCjtM",
-                             "March 4th, 2016")
+the_dark_tower = media.Movie("The Dark Tower",
+                        "Starring: Idris Elba, Matthew McConaughey",
+                        "Directed by Nikolaj Arcel",
+                        "https://en.wikipedia.org/wiki/The_Dark_Tower_(2017_film)#/media/File:The_Dark_Tower_teaser_poster.jpg",
+                        "https://www.youtube.com/watch?v=GjwfqXTebIY",
+                        "August 4th, 2017")
 
-high_rise = media.Movie("High-Rise",
-                        "Starring: Tom Hiddleston, Jeremy Irons",
-                        "Directed by Ben Wheatley",
-                        "https://upload.wikimedia.org/wikipedia/en/f/f5/High_Rise_2014_Film_Poster.jpg",
-                        "https://www.youtube.com/watch?v=9dPp1PmNc5M",
-                        "May 13th, 2016")
+alien_covenant = media.Movie("Alien: Covenant",
+                        "Starring: Michael Fassbender, Kathrine Waterston",
+                        "Directed by Ridley Scott",
+                        "https://en.wikipedia.org/wiki/Alien:_Covenant#/media/File:Alien_Covenant_Teaser_Poster.jpg",
+                        "https://www.youtube.com/watch?v=u5KPP6lxRVg",
+                        "May 12th, 2017")
 
-louder_than_bombs = media.Movie("Louder Than Bombs",
-                                "Starring: Jesse Eisenberg, Amy Ryan, Rachel Brosnahan",
-                                "Directed by Joachim Trier",
-                                "https://upload.wikimedia.org/wikipedia/en/f/f1/Louder_Than_Bombs_%28film%29.jpg",
-                                "https://www.youtube.com/watch?v=1-Yw5clD4yU",
-                                "March 25th, 2016")
+pirates_of_the_caribbean_dead_men_tell_no_tales = media.Movie("Pirates of the Caribbean: Dead Men Tell No Tales",
+                        "Starring: Johnny Depp, Javier Bardem",
+                        "Directed by Joachim Rønning, Espen Sandberg",
+                        "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_Dead_Men_Tell_No_Tales#/media/File:Pirates_of_the_Caribbean,_Dead_Men_Tell_No_Tales.jpg",
+                        "https://www.youtube.com/watch?v=a5V5C8mEVzY",
+                        "March 25th, 2017")
 
-snowden = media.Movie("Snowden",
-                      "Starring: Shailene Woodley, Scott Eastwood, Joseph Gordon-Levitt",
-                      "Directed by Oliver Stone",
-                      "https://upload.wikimedia.org/wikipedia/en/1/1a/Snowden_%28film%29.jpg",
-                      "https://www.youtube.com/watch?v=QlSAiI3xMh4",
-                      "September 16th, 2016")
+it = media.Movie("It",
+                "Starring: Bill Skarsgård, Jaeden Lieberher",
+                "Directed by Andrés Muschietti",
+                "https://en.wikipedia.org/wiki/It_(2017_film)#/media/File:It_(2017)_logo.jpg",
+                "https://www.youtube.com/watch?v=PN8il_zxNWM",
+                "September 8th, 2017")
 
-the_lobster = media.Movie("The Lobster",
-                          "Starring: Colin Farrell, Bob The Dog",
-                          "Directed by Yorgos Lanthimos",
-                          "http://dl9fvu4r30qs1.cloudfront.net/1d/ee/5b37bdaf4b259fffe5b845654bdd/colin-farrell-in-the-lobster.jpg",
-                          "https://www.youtube.com/watch?v=fpt0tn1-54k",
-                          "March 11th, 2016")
+justice_league = media.Movie("Justice League",
+                          "Starring: Uddika Premarathna, Dilhani Ekanayake",
+                          "Directed by Ben Affleck, Henry Cavill, Gal Gadot",
+                          "https://en.wikipedia.org/wiki/Justice_League_(film)#/media/File:Justice_League_film_poster.jpg",
+                          "https://www.youtube.com/watch?v=3cxixDgHUYw",
+                          "November 17th, 2017")
 
-triple_9 = media.Movie("Triple 9",
-                       "Starring: Casey Affleck, Woody Harrelson, Aaron Paul, Kate Winslet",
-                       "Directed by John Hillcoat",
-                       "https://upload.wikimedia.org/wikipedia/en/9/9c/Triple_9_poster.jpg",
-                       "https://www.youtube.com/watch?v=wzyFNVbWPxI",
-                       "February 26th, 2016")
+king_arthur = media.Movie("King Arthur: Legend of the Sword",
+                       "Starring: Charlie Hunnam, Astrid Bergés-Frisbey",
+                       "Directed by Guy Richie",
+                       "https://en.wikipedia.org/wiki/King_Arthur:_Legend_of_the_Sword#/media/File:King_Arthur_LotS_poster.jpg",
+                       "https://www.youtube.com/watch?v=SX9y5JPuRHY",
+                       "May 12th, 2017")
 
-batman_v_superman = media.Movie("Batman v. Superman",
-                                "Starring: Ben Affleck, Henry Cavill, Gal Gadot, Jason Momoa, Michael Shannon",
-                                "Directed by Zack Snyder",
-                                "https://upload.wikimedia.org/wikipedia/en/2/20/Batman_v_Superman_poster.jpg",
-                                "https://www.youtube.com/watch?time_continue=7&v=fis-9Zqu2Ro",
-                                "March 25th, 2016")
+blade_runner_2049 = media.Movie("Blade Runner 2049",
+                                "Starring: Ryan Gosling, Harrison Ford",
+                                "Directed by Denis Villeneuve",
+                                "https://en.wikipedia.org/wiki/Blade_Runner_2049#/media/File:Blade_Runner_2049_logo.png",
+                                "https://www.youtube.com/watch?v=MU6wytaYID8",
+                                "October 6th, 2017")
 
-the_bfg = media.Movie("The BFG",
-                      "Starring: Mark Rylance, Rebecca Hall, Jemaine Clement",
-                      "Directed by Steven Spielberg",
-                      "https://upload.wikimedia.org/wikipedia/en/a/af/The_BFG_poster.jpg",
-                      "https://www.youtube.com/watch?v=VG5MtenlP-A",
-                      "July 1st, 2016")
+coco = media.Movie("Coco",
+                    "Starring: Anthony Gonzalez, Gael García Bernal",
+                    "Directed by Lee Unkrich",
+                    "https://en.wikipedia.org/wiki/Coco_(2017_animated_film)#/media/File:Coco_(2017_film)_logo.jpg",
+                    "https://www.youtube.com/watch?v=zNCz4mQzfEI",
+                    "November 22nd, 2017")
 
-the_wave = media.Movie("The Wave",
-                       "Starring: Kristoffer Joner, Ane Dahl Torp",
-                       "Directed by Roar Uthaug",
-                       "https://upload.wikimedia.org/wikipedia/en/3/3b/The_Wave_%282015_film%29.jpg",
-                       "https://www.youtube.com/watch?v=QPIOV-tCaEU",
-                       "May 21st, 2016")
+phantom_thread = media.Movie("Phantom Thread (Working Title)",
+                       "Starring: Daniel Day Lewis",
+                       "Directed by Paul Thomas Anderson",
+                       "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
+                       "",
+                       "December 25th, 2017")
 
-dory = media.Movie("Finding Dory",
-                   "Starring: Ellen DeGeneres, Diane Keaton, Kaitlin Olson",
-                   "Directed by Andrew Stanton & Angus MacLane",
-                   "https://upload.wikimedia.org/wikipedia/en/3/3e/Finding_Dory.jpg",
-                   "https://www.youtube.com/watch?v=iG0P6bjyUNI",
-                   "June 17th, 2016")
+atomic_blonde = media.Movie("Atomic Blonde",
+                   "Starring: Charlize Theron, James McAvoy, John Goodman",
+                   "Directed by David Leitch",
+                   "https://en.wikipedia.org/wiki/Atomic_Blonde#/media/File:Atomic_Blonde_poster.jpg",
+                   "https://www.youtube.com/watch?v=yIUube1pSC0",
+                   "August 11th, 2017")
 
-kubo = media.Movie("Kubo and the Two Strings",
-                   "Starring: Charlize Theron, Rooney Mara, Matthew McConaughey",
-                   "Directed by Travis Knight",
-                   "https://upload.wikimedia.org/wikipedia/en/c/c4/Kubo_and_the_Two_Strings_poster.png",
-                   "https://www.youtube.com/watch?v=FKSqHmQcOzk",
-                   "June 17th, 2016")
+bright = media.Movie("Bright",
+                   "Starring: Will Smith, Joel Edgerton, Noomi Rapace",
+                   "Directed by David Ayer",
+                   "http://www.imdb.com/title/tt5519340/mediaviewer/rm1960325888",
+                   "https://www.youtube.com/watch?v=59uAseJFh7M",
+                   "Decemeber 2017")
 
-star_trek = media.Movie("Star Trek Beyond",
-                        "Starring: Chris Pine, Simon Pegg, Zachary Quinto",
-                        "Directed by Justin Lin",
-                        "http://www.scified.com/movie-posters/thumbs/ST3Poster2.jpg",
-                        "https://www.youtube.com/watch?v=XRVD32rnzOw",
-                        "July 22nd, 2016")
+gaurdians_of_the_glaxay_vol_2 = media.Movie("Guardians of teh Galaxy Vol. 2",
+                        "Starring: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper",
+                        "Directed by James Gunn",
+                        "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._2#/media/File:GotG_Vol2_poster.jpg",
+                        "https://www.youtube.com/watch?v=duGqrYw4usE",
+                        "May 5th, 2017")
 
-x_men = media.Movie("X-Men: Apocalypse",
-                    "Starring: Jennifer Lawrence, Michael Fassbender, Olivia Munn",
-                    "Directed by Bryan Singer",
-                    "https://upload.wikimedia.org/wikipedia/en/0/04/X-Men_-_Apocalypse.jpg",
-                    "https://www.youtube.com/watch?v=COvnHv42T-A",
-                    "March 4th, 2016")
+kingsmen_the_golden_circle = media.Movie("Kingsman: The Golden Circle",
+                    "Starring: Taron Egerton, Channing Tatum, Sophie Cookson",
+                    "Directed by Matthew Vaughn",
+                    "https://en.wikipedia.org/wiki/Kingsman:_The_Golden_Circle#/media/File:Kingsman_The_Golden_Circle.jpg",
+                    "https://www.youtube.com/watch?v=6Nxc-3WpMbg",
+                    "October 6th, 2017")
 
-petes_dragon = media.Movie("Pete's Dragon",
-                           "Starring:  Bryce Dallas Howard, Robert Redford, Karl Urban",
-                           "Directed by David Lowery",
-                           "https://upload.wikimedia.org/wikipedia/en/d/d2/Petes_dragon_2016_film_poster.jpg",
-                           "https://www.youtube.com/watch?v=OlUkOid3TYc",
-                           "August 12th, 2016")
+american_assassin = media.Movie("American Assassin",
+                           "Starring: Dylan O'Brien, Scott Adkins, Taylor Kitsch",
+                           "Directed by Michael Cuesta",
+                           "https://en.wikipedia.org/wiki/American_Assassin#/media/File:American_Assassin.jpg",
+                           "https://www.youtube.com/watch?v=XwHAGKxsbcg",
+                           "September 15th, 2017")
 
-tale_of_tales = media.Movie("Tale of Tales",
-                             "Starring: Salma Hayek, Vincent Cassel, Toby Jones",
-                             "Directed by Matteo Garrone",
-                             "https://upload.wikimedia.org/wikipedia/en/9/95/Il_racconto_dei_racconti_poster.jpg",
-                             "https://www.youtube.com/watch?v=wyJg4vs26Zs",
-                             "April 22nd, 2016")
+thor_ragnarok = media.Movie("Thor: Ragnarok",
+                             "Starring:  Cate Blanchett, Chris Hemsworth, Tom Hiddleston",
+                             "Directed by Taika Waititi",
+                             "https://en.wikipedia.org/wiki/Thor:_Ragnarok#/media/File:Thor_Ragnarok_poster.jpg",
+                             "https://www.youtube.com/watch?v=v7MGUNV8MxU",
+                             "November 3rd, 2017")
 
-alice = media.Movie("Alice Through the Looking Glass",
-                    "Starring: Johnny Depp, Sacha Baron Cohen, Anne Hathaway",
-                    "Directed by James Bobin",
-                    "https://upload.wikimedia.org/wikipedia/en/b/b4/Alice_Through_the_Looking_Glass_%28film%29_poster.jpg",
-                    "https://www.youtube.com/watch?v=OiEG3Zr_Jxs",
-                    "May 27th, 2016")
+mute = media.Movie("Mute",
+                    "Starring: Alexander Skarsgård, Paul Rudd, Justin Theroux",
+                    "Directed by Duncan Jones",
+                    "http://www.imdb.com/title/tt1464763/mediaviewer/rm205862912",
+                    "https://www.youtube.com/watch?v=JxZnlILQi1k",
+                    "2017")
 
-fantastic = media.Movie("Fantastic Beasts and Where to Find Them",
-                        "Starring: Eddie Redmayne, Katherine Waterston, Ezra Miller",
-                        "Directed by David Yates",
-                        "https://upload.wikimedia.org/wikipedia/en/5/5e/Fantastic_Beasts_and_Where_to_Find_Them_poster.png",
-                        "https://www.youtube.com/watch?v=Wj1devH5JP4",
-                        "Novemeber 18th, 2016")
+war_machine = media.Movie("War Machine",
+                        "Starring: Brad Pitt, Anthony Hayes, John Magaro",
+                        "Directed by David Michôd",
+                        "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
+                        "https://www.youtube.com/watch?v=sIqXRDDdo7c",
+                        "May 26th, 2017")
 
-movies = [nice_guys,
-          suicide_squad,
-          knight_of_cups,
-          high_rise,
-          louder_than_bombs,
-          snowden,
-          the_lobster,
-          triple_9,
-          batman_v_superman,
-          the_bfg,
-          the_wave,
-          dory,
-          x_men,
-          tale_of_tales,
-          petes_dragon,
-          alice,
-          fantastic,
-          kubo
+movies = [star_wars,
+          dunkirk,
+          alien_covenant,
+          pirates_of_the_caribbean_dead_men_tell_no_tales,
+          it,
+          justice_league,
+          king_arthur,
+          blade_runner_2049,
+          coco,
+          phantom_thread,
+          atomic_blonde,
+          bright,
+          xgaurdians_of_the_glaxay_vol_2,
+          kingsmen_the_golden_circle,
+          american_assassin,
+          thor_ragnarok,
+          mute,
+          war_machine
           ]
 
 fresh_tomatoes.open_movies_page(movies)
