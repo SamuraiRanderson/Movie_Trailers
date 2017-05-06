@@ -14,7 +14,7 @@ import media
 star_wars = media.Movie("Star Wars: The Last Jedi",
                         "Starring: Mark Hamill, Carrie Fisher, Daisy Ridley, Adam Driver",
                         "Directed by Rian Johnson",
-                        "https://en.wikipedia.org/wiki/Star_Wars:_The_Last_Jedi#/media/File:Star_Wars_The_Last_Jedi.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg",
                         "https://www.youtube.com/watch?v=zB4I68XVPzQ",
                         "December 15th, 2017")
 
@@ -41,14 +41,14 @@ alien_covenant = media.Movie("Alien: Covenant",
 
 pirates_of_the_caribbean_dead_men_tell_no_tales = media.Movie("Pirates of the Caribbean: Dead Men Tell No Tales",
                         "Starring: Johnny Depp, Javier Bardem",
-                        "Directed by Joachim Rønning, Espen Sandberg",
+                        "Directed by Joachim Ronning, Espen Sandberg",
                         "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_Dead_Men_Tell_No_Tales#/media/File:Pirates_of_the_Caribbean,_Dead_Men_Tell_No_Tales.jpg",
                         "https://www.youtube.com/watch?v=a5V5C8mEVzY",
                         "March 25th, 2017")
 
 it = media.Movie("It",
-                "Starring: Bill Skarsgård, Jaeden Lieberher",
-                "Directed by Andrés Muschietti",
+                "Starring: Bill Skarsgard, Jaeden Lieberher",
+                "Directed by Andres Muschietti",
                 "https://en.wikipedia.org/wiki/It_(2017_film)#/media/File:It_(2017)_logo.jpg",
                 "https://www.youtube.com/watch?v=PN8il_zxNWM",
                 "September 8th, 2017")
@@ -61,7 +61,7 @@ justice_league = media.Movie("Justice League",
                           "November 17th, 2017")
 
 king_arthur = media.Movie("King Arthur: Legend of the Sword",
-                       "Starring: Charlie Hunnam, Astrid Bergés-Frisbey",
+                       "Starring: Charlie Hunnam, Astrid Berges-Frisbey",
                        "Directed by Guy Richie",
                        "https://en.wikipedia.org/wiki/King_Arthur:_Legend_of_the_Sword#/media/File:King_Arthur_LotS_poster.jpg",
                        "https://www.youtube.com/watch?v=SX9y5JPuRHY",
@@ -75,7 +75,7 @@ blade_runner_2049 = media.Movie("Blade Runner 2049",
                                 "October 6th, 2017")
 
 coco = media.Movie("Coco",
-                    "Starring: Anthony Gonzalez, Gael García Bernal",
+                    "Starring: Anthony Gonzalez, Gael Garcia Bernal",
                     "Directed by Lee Unkrich",
                     "https://en.wikipedia.org/wiki/Coco_(2017_animated_film)#/media/File:Coco_(2017_film)_logo.jpg",
                     "https://www.youtube.com/watch?v=zNCz4mQzfEI",
@@ -131,7 +131,7 @@ thor_ragnarok = media.Movie("Thor: Ragnarok",
                              "November 3rd, 2017")
 
 mute = media.Movie("Mute",
-                    "Starring: Alexander Skarsgård, Paul Rudd, Justin Theroux",
+                    "Starring: Alexander Skarsgard, Paul Rudd, Justin Theroux",
                     "Directed by Duncan Jones",
                     "http://www.imdb.com/title/tt1464763/mediaviewer/rm205862912",
                     "https://www.youtube.com/watch?v=JxZnlILQi1k",
@@ -139,7 +139,7 @@ mute = media.Movie("Mute",
 
 war_machine = media.Movie("War Machine",
                         "Starring: Brad Pitt, Anthony Hayes, John Magaro",
-                        "Directed by David Michôd",
+                        "Directed by David Michod",
                         "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
                         "https://www.youtube.com/watch?v=sIqXRDDdo7c",
                         "May 26th, 2017")
@@ -156,7 +156,7 @@ movies = [star_wars,
           phantom_thread,
           atomic_blonde,
           bright,
-          xgaurdians_of_the_glaxay_vol_2,
+          gaurdians_of_the_glaxay_vol_2,
           kingsmen_the_golden_circle,
           american_assassin,
           thor_ragnarok,
