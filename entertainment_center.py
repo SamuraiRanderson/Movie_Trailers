@@ -21,63 +21,63 @@ star_wars = media.Movie("Star Wars: The Last Jedi",
 dunkirk = media.Movie("Dunkirk",
                         "Starring: Tom Hardy, Mark Rylance, Kenneth Branagh",
                         "Directed by Christopher Nolan",
-                        "https://en.wikipedia.org/wiki/Dunkirk_(2017_film)#/media/File:Dunkirk_Film_poster.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/1/15/Dunkirk_Film_poster.jpg",
                         "https://www.youtube.com/watch?v=_cmgiys2n1o",
                         "July 21st, 2017")
 
 the_dark_tower = media.Movie("The Dark Tower",
                         "Starring: Idris Elba, Matthew McConaughey",
                         "Directed by Nikolaj Arcel",
-                        "https://en.wikipedia.org/wiki/The_Dark_Tower_(2017_film)#/media/File:The_Dark_Tower_teaser_poster.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/4/49/The_Dark_Tower_teaser_poster.jpg",
                         "https://www.youtube.com/watch?v=GjwfqXTebIY",
                         "August 4th, 2017")
 
 alien_covenant = media.Movie("Alien: Covenant",
                         "Starring: Michael Fassbender, Kathrine Waterston",
                         "Directed by Ridley Scott",
-                        "https://en.wikipedia.org/wiki/Alien:_Covenant#/media/File:Alien_Covenant_Teaser_Poster.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/3/33/Alien_Covenant_Teaser_Poster.jpg",
                         "https://www.youtube.com/watch?v=u5KPP6lxRVg",
                         "May 12th, 2017")
 
 pirates_of_the_caribbean_dead_men_tell_no_tales = media.Movie("Pirates of the Caribbean: Dead Men Tell No Tales",
                         "Starring: Johnny Depp, Javier Bardem",
                         "Directed by Joachim Ronning, Espen Sandberg",
-                        "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_Dead_Men_Tell_No_Tales#/media/File:Pirates_of_the_Caribbean,_Dead_Men_Tell_No_Tales.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean%2C_Dead_Men_Tell_No_Tales.jpg",
                         "https://www.youtube.com/watch?v=a5V5C8mEVzY",
                         "March 25th, 2017")
 
 it = media.Movie("It",
                 "Starring: Bill Skarsgard, Jaeden Lieberher",
                 "Directed by Andres Muschietti",
-                "https://en.wikipedia.org/wiki/It_(2017_film)#/media/File:It_(2017)_logo.jpg",
+                "https://upload.wikimedia.org/wikipedia/en/a/a2/It_%282017%29_logo.jpg",
                 "https://www.youtube.com/watch?v=PN8il_zxNWM",
                 "September 8th, 2017")
 
 justice_league = media.Movie("Justice League",
                           "Starring: Uddika Premarathna, Dilhani Ekanayake",
                           "Directed by Ben Affleck, Henry Cavill, Gal Gadot",
-                          "https://en.wikipedia.org/wiki/Justice_League_(film)#/media/File:Justice_League_film_poster.jpg",
+                          "https://upload.wikimedia.org/wikipedia/en/3/31/Justice_League_film_poster.jpg",
                           "https://www.youtube.com/watch?v=3cxixDgHUYw",
                           "November 17th, 2017")
 
 king_arthur = media.Movie("King Arthur: Legend of the Sword",
                        "Starring: Charlie Hunnam, Astrid Berges-Frisbey",
                        "Directed by Guy Richie",
-                       "https://en.wikipedia.org/wiki/King_Arthur:_Legend_of_the_Sword#/media/File:King_Arthur_LotS_poster.jpg",
+                       "https://upload.wikimedia.org/wikipedia/en/a/a4/King_Arthur_LotS_poster.jpg",
                        "https://www.youtube.com/watch?v=SX9y5JPuRHY",
                        "May 12th, 2017")
 
 blade_runner_2049 = media.Movie("Blade Runner 2049",
                                 "Starring: Ryan Gosling, Harrison Ford",
                                 "Directed by Denis Villeneuve",
-                                "https://en.wikipedia.org/wiki/Blade_Runner_2049#/media/File:Blade_Runner_2049_logo.png",
+                                "https://upload.wikimedia.org/wikipedia/en/2/27/Blade_Runner_2049_logo.png",
                                 "https://www.youtube.com/watch?v=MU6wytaYID8",
                                 "October 6th, 2017")
 
 coco = media.Movie("Coco",
                     "Starring: Anthony Gonzalez, Gael Garcia Bernal",
                     "Directed by Lee Unkrich",
-                    "https://en.wikipedia.org/wiki/Coco_(2017_animated_film)#/media/File:Coco_(2017_film)_logo.jpg",
+                    "https://upload.wikimedia.org/wikipedia/en/d/d7/Coco_%282017_film%29_logo.jpg",
                     "https://www.youtube.com/watch?v=zNCz4mQzfEI",
                     "November 22nd, 2017")
 
@@ -91,7 +91,7 @@ phantom_thread = media.Movie("Phantom Thread (Working Title)",
 atomic_blonde = media.Movie("Atomic Blonde",
                    "Starring: Charlize Theron, James McAvoy, John Goodman",
                    "Directed by David Leitch",
-                   "https://en.wikipedia.org/wiki/Atomic_Blonde#/media/File:Atomic_Blonde_poster.jpg",
+                   "https://upload.wikimedia.org/wikipedia/en/b/b5/Atomic_Blonde_poster.jpg",
                    "https://www.youtube.com/watch?v=yIUube1pSC0",
                    "August 11th, 2017")
 
@@ -112,21 +112,21 @@ gaurdians_of_the_glaxay_vol_2 = media.Movie("Guardians of teh Galaxy Vol. 2",
 kingsmen_the_golden_circle = media.Movie("Kingsman: The Golden Circle",
                     "Starring: Taron Egerton, Channing Tatum, Sophie Cookson",
                     "Directed by Matthew Vaughn",
-                    "https://en.wikipedia.org/wiki/Kingsman:_The_Golden_Circle#/media/File:Kingsman_The_Golden_Circle.jpg",
+                    "https://upload.wikimedia.org/wikipedia/en/9/95/GotG_Vol2_poster.jpg",
                     "https://www.youtube.com/watch?v=6Nxc-3WpMbg",
                     "October 6th, 2017")
 
 american_assassin = media.Movie("American Assassin",
                            "Starring: Dylan O'Brien, Scott Adkins, Taylor Kitsch",
                            "Directed by Michael Cuesta",
-                           "https://en.wikipedia.org/wiki/American_Assassin#/media/File:American_Assassin.jpg",
+                           "https://upload.wikimedia.org/wikipedia/en/5/5d/American_Assassin.jpg",
                            "https://www.youtube.com/watch?v=XwHAGKxsbcg",
                            "September 15th, 2017")
 
 thor_ragnarok = media.Movie("Thor: Ragnarok",
                              "Starring:  Cate Blanchett, Chris Hemsworth, Tom Hiddleston",
                              "Directed by Taika Waititi",
-                             "https://en.wikipedia.org/wiki/Thor:_Ragnarok#/media/File:Thor_Ragnarok_poster.jpg",
+                             "https://upload.wikimedia.org/wikipedia/en/7/7d/Thor_Ragnarok_poster.jpg",
                              "https://www.youtube.com/watch?v=v7MGUNV8MxU",
                              "November 3rd, 2017")
 
