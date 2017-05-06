@@ -98,21 +98,21 @@ atomic_blonde = media.Movie("Atomic Blonde",
 bright = media.Movie("Bright",
                    "Starring: Will Smith, Joel Edgerton, Noomi Rapace",
                    "Directed by David Ayer",
-                   "http://www.imdb.com/title/tt5519340/mediaviewer/rm1960325888",
+                   "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
                    "https://www.youtube.com/watch?v=59uAseJFh7M",
                    "Decemeber 2017")
 
 gaurdians_of_the_glaxay_vol_2 = media.Movie("Guardians of teh Galaxy Vol. 2",
                         "Starring: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper",
                         "Directed by James Gunn",
-                        "https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_Vol._2#/media/File:GotG_Vol2_poster.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/9/95/GotG_Vol2_poster.jpg",
                         "https://www.youtube.com/watch?v=duGqrYw4usE",
                         "May 5th, 2017")
 
 kingsmen_the_golden_circle = media.Movie("Kingsman: The Golden Circle",
                     "Starring: Taron Egerton, Channing Tatum, Sophie Cookson",
                     "Directed by Matthew Vaughn",
-                    "https://upload.wikimedia.org/wikipedia/en/9/95/GotG_Vol2_poster.jpg",
+                    "https://upload.wikimedia.org/wikipedia/en/7/73/Kingsman_The_Golden_Circle.jpg",
                     "https://www.youtube.com/watch?v=6Nxc-3WpMbg",
                     "October 6th, 2017")
 
@@ -133,7 +133,7 @@ thor_ragnarok = media.Movie("Thor: Ragnarok",
 mute = media.Movie("Mute",
                     "Starring: Alexander Skarsgard, Paul Rudd, Justin Theroux",
                     "Directed by Duncan Jones",
-                    "http://www.imdb.com/title/tt1464763/mediaviewer/rm205862912",
+                    "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
                     "https://www.youtube.com/watch?v=JxZnlILQi1k",
                     "2017")
 
