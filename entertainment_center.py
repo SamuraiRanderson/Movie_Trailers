@@ -12,7 +12,7 @@ import media
 # """
 
 star_wars = media.Movie("Star Wars: The Last Jedi",
-                        "Starring: Mark Hamill, Carrie Fisher, Daisy Ridley, Adam Driver",
+                        "Starring: Mark Hamill, Carrie Fisher, Daisy Ridley",
                         "Directed by Rian Johnson",
                         "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg",
                         "https://www.youtube.com/watch?v=zB4I68XVPzQ",
@@ -39,11 +39,11 @@ alien_covenant = media.Movie("Alien: Covenant",
                         "https://www.youtube.com/watch?v=u5KPP6lxRVg",
                         "May 12th, 2017")
 
-pirates_of_the_caribbean_dead_men_tell_no_tales = media.Movie("Pirates of the Caribbean: Dead Men Tell No Tales",
+pirates_of_the_caribbean_dead_men_tell_no_tales = media.Movie("Dead Men Tell No Tales",
                         "Starring: Johnny Depp, Javier Bardem",
                         "Directed by Joachim Ronning, Espen Sandberg",
                         "https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean%2C_Dead_Men_Tell_No_Tales.jpg",
-                        "https://www.youtube.com/watch?v=a5V5C8mEVzY",
+                        "https://www.youtube.com/watch?v=XibzC-e_s5M",
                         "March 25th, 2017")
 
 it = media.Movie("It",
@@ -60,7 +60,7 @@ justice_league = media.Movie("Justice League",
                           "https://www.youtube.com/watch?v=3cxixDgHUYw",
                           "November 17th, 2017")
 
-king_arthur = media.Movie("King Arthur: Legend of the Sword",
+king_arthur = media.Movie("King Arthur",
                        "Starring: Charlie Hunnam, Astrid Berges-Frisbey",
                        "Directed by Guy Richie",
                        "https://upload.wikimedia.org/wikipedia/en/a/a4/King_Arthur_LotS_poster.jpg",
@@ -81,36 +81,22 @@ coco = media.Movie("Coco",
                     "https://www.youtube.com/watch?v=zNCz4mQzfEI",
                     "November 22nd, 2017")
 
-phantom_thread = media.Movie("Phantom Thread (Working Title)",
-                       "Starring: Daniel Day Lewis",
-                       "Directed by Paul Thomas Anderson",
-                       "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
-                       "",
-                       "December 25th, 2017")
-
 atomic_blonde = media.Movie("Atomic Blonde",
-                   "Starring: Charlize Theron, James McAvoy, John Goodman",
+                   "Starring: Charlize Theron, James McAvoy",
                    "Directed by David Leitch",
                    "https://upload.wikimedia.org/wikipedia/en/b/b5/Atomic_Blonde_poster.jpg",
                    "https://www.youtube.com/watch?v=yIUube1pSC0",
                    "August 11th, 2017")
 
-bright = media.Movie("Bright",
-                   "Starring: Will Smith, Joel Edgerton, Noomi Rapace",
-                   "Directed by David Ayer",
-                   "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
-                   "https://www.youtube.com/watch?v=59uAseJFh7M",
-                   "Decemeber 2017")
-
-gaurdians_of_the_glaxay_vol_2 = media.Movie("Guardians of teh Galaxy Vol. 2",
-                        "Starring: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper",
+gaurdians_of_the_glaxay_vol_2 = media.Movie("Guardians of the Galaxy",
+                        "Starring: Chris Pratt, Vin Diesel, Bradley Cooper",
                         "Directed by James Gunn",
                         "https://upload.wikimedia.org/wikipedia/en/9/95/GotG_Vol2_poster.jpg",
                         "https://www.youtube.com/watch?v=duGqrYw4usE",
                         "May 5th, 2017")
 
-kingsmen_the_golden_circle = media.Movie("Kingsman: The Golden Circle",
-                    "Starring: Taron Egerton, Channing Tatum, Sophie Cookson",
+kingsmen_the_golden_circle = media.Movie("The Golden Circle",
+                    "Starring: Taron Egerton, Channing Tatum",
                     "Directed by Matthew Vaughn",
                     "https://upload.wikimedia.org/wikipedia/en/7/73/Kingsman_The_Golden_Circle.jpg",
                     "https://www.youtube.com/watch?v=6Nxc-3WpMbg",
@@ -124,26 +110,39 @@ american_assassin = media.Movie("American Assassin",
                            "September 15th, 2017")
 
 thor_ragnarok = media.Movie("Thor: Ragnarok",
-                             "Starring:  Cate Blanchett, Chris Hemsworth, Tom Hiddleston",
+                             "Starring:  Cate Blanchett, Chris Hemsworth",
                              "Directed by Taika Waititi",
                              "https://upload.wikimedia.org/wikipedia/en/7/7d/Thor_Ragnarok_poster.jpg",
                              "https://www.youtube.com/watch?v=v7MGUNV8MxU",
                              "November 3rd, 2017")
 
+bright = media.Movie("Bright",
+                   "Starring: Will Smith, Joel Edgerton",
+                   "Directed by David Ayer",
+                   "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
+                   "https://www.youtube.com/watch?v=59uAseJFh7M",
+                   "Decemeber 2017")
+
 mute = media.Movie("Mute",
-                    "Starring: Alexander Skarsgard, Paul Rudd, Justin Theroux",
+                    "Starring: Alexander Skarsgard, Paul Rudd",
                     "Directed by Duncan Jones",
                     "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
                     "https://www.youtube.com/watch?v=JxZnlILQi1k",
                     "2017")
 
 war_machine = media.Movie("War Machine",
-                        "Starring: Brad Pitt, Anthony Hayes, John Magaro",
+                        "Starring: Brad Pitt",
                         "Directed by David Michod",
                         "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
                         "https://www.youtube.com/watch?v=sIqXRDDdo7c",
                         "May 26th, 2017")
 
+phantom_thread = media.Movie("Phantom Thread",
+                       "Starring: Daniel Day Lewis",
+                       "Directed by Paul Thomas Anderson",
+                       "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
+                       "https://www.youtube.com/watch?v=mL7n5mEmXJo",
+                       "December 25th, 2017")
 movies = [star_wars,
           dunkirk,
           alien_covenant,
@@ -153,15 +152,15 @@ movies = [star_wars,
           king_arthur,
           blade_runner_2049,
           coco,
-          phantom_thread,
           atomic_blonde,
-          bright,
           gaurdians_of_the_glaxay_vol_2,
           kingsmen_the_golden_circle,
           american_assassin,
           thor_ragnarok,
+          bright,
           mute,
-          war_machine
+          war_machine,
+          phantom_thread,
           ]
 
 fresh_tomatoes.open_movies_page(movies)
