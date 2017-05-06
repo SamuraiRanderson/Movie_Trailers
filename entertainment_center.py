@@ -127,7 +127,7 @@ mute = media.Movie("Mute",
                     "Starring: Alexander Skarsgard, Paul Rudd",
                     "Directed by Duncan Jones",
                     "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
-                    "https://www.youtube.com/watch?v=JxZnlILQi1k",
+                    "https://www.youtube.com/watch?v=tIF_8jDVXMg",
                     "2017")
 
 war_machine = media.Movie("War Machine",
@@ -141,7 +141,7 @@ phantom_thread = media.Movie("Phantom Thread",
                        "Starring: Daniel Day Lewis",
                        "Directed by Paul Thomas Anderson",
                        "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
-                       "https://www.youtube.com/watch?v=mL7n5mEmXJo",
+                       "https://www.youtube.com/watch?v=DVWMSN4klpQ",
                        "December 25th, 2017")
 movies = [star_wars,
           dunkirk,
