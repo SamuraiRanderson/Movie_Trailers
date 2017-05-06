@@ -22,4 +22,4 @@ Clone this repo:<br>
 Execute this script:<br>
 `$ python entertainment_center.py`
 
-![2016 Movie Trailer](images/trailers.png)
+![2017 Movie Trailer](images/2017trailers.png)
