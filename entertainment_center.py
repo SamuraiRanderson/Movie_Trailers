@@ -54,8 +54,8 @@ it = media.Movie("It",
                 "September 8th, 2017")
 
 justice_league = media.Movie("Justice League",
-                          "Starring: Uddika Premarathna, Dilhani Ekanayake",
-                          "Directed by Ben Affleck, Henry Cavill, Gal Gadot",
+                          "Starring: Ben Affleck, Henry Cavill, Gal Gado",
+                          "Directed by Zack Snyder",
                           "https://upload.wikimedia.org/wikipedia/en/3/31/Justice_League_film_poster.jpg",
                           "https://www.youtube.com/watch?v=3cxixDgHUYw",
                           "November 17th, 2017")
