@@ -1,6 +1,6 @@
-##2016 Movie Trailers
+##2017 Movie Trailers
 
-A simple server side application that stores a list of 2016 movies with it's poster, trailer and release date.
+A simple server side application that stores a list of 2017 movies with it's poster, trailer and release date.
 
 ###Technologies Used:
 * HTML
