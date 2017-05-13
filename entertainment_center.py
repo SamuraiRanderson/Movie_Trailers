@@ -74,11 +74,11 @@ blade_runner_2049 = media.Movie("Blade Runner 2049",
                                 "https://www.youtube.com/watch?v=MU6wytaYID8",
                                 "October 6th, 2017")
 
-coco = media.Movie("Coco",
-                    "Starring: Anthony Gonzalez, Gael Garcia Bernal",
-                    "Directed by Lee Unkrich",
-                    "https://upload.wikimedia.org/wikipedia/en/d/d7/Coco_%282017_film%29_logo.jpg",
-                    "https://www.youtube.com/watch?v=zNCz4mQzfEI",
+this_is_the_end = media.Movie("THIS IS THE END",
+                    "Starring: James Franco, Jonah Hill",
+                    "Directed by Seth Rogan",
+                    "https://upload.wikimedia.org/wikipedia/en/3/36/This-is-the-End-Film-Poster.jpg",
+                    "https://www.youtube.com/watch?v=kliQSsD_npo",
                     "November 22nd, 2017")
 
 atomic_blonde = media.Movie("Atomic Blonde",
