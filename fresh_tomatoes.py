@@ -9,7 +9,7 @@ main_page_head = '''
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>2016 Movie Trailers</title>
+    <title>Movie Trailers</title>
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
@@ -93,9 +93,7 @@ main_page_content = '''
     <div class="modal" id="trailer">
       <div class="modal-dialog">
         <div class="modal-content">
-          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
-            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
-          </a>
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true" style="text-decoration: none; color: #666; font-size: 14px; font-weight: bold; background-color: rgba(255,255,255,0.9); border-radius: 50%; width: 30px; height: 30px; display: block; line-height: 30px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">X</a>
           <div class="scale-media" id="trailer-video-container">
           </div>
         </div>
@@ -106,7 +104,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">2016 Movie Trailers</a>
+            <a class="navbar-brand" href="#">Movie Trailers</a>
           </div>
         </div>
       </div>

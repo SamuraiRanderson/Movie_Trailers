@@ -14,80 +14,80 @@ Each movie is created using the media.Movie class with the following parameters:
 """
 
 # Create movie objects for 2017 movies
-star_wars = media.Movie("Star Wars: The Last Jedi",
-                        "Directed by Rian Johnson",
-                        "Starring: Mark Hamill, Carrie Fisher, Daisy Ridley",
-                        "https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg",
-                        "https://www.youtube.com/watch?v=zB4I68XVPzQ",
-                        "December 15th, 2017")
+the_odyssey = media.Movie("The Odyssey",
+                        "Directed by Christopher Nolan",
+                        "Starring: Matt Damon, Anne Hathaway",
+                        "https://upload.wikimedia.org/wikipedia/en/9/90/The_Odyssey_%282026_film%29_poster.jpg",
+                        "https://www.youtube.com/watch?v=5yzxVnFf7bE",
+                        "July 17th, 2026")
 
-dunkirk = media.Movie("Dunkirk",
-                      "Directed by Christopher Nolan",
-                      "Starring: Tom Hardy, Mark Rylance, Kenneth Branagh",
-                      "https://upload.wikimedia.org/wikipedia/en/1/15/Dunkirk_Film_poster.jpg",
-                      "https://www.youtube.com/watch?v=_cmgiys2n1o",
-                      "July 21st, 2017")
+the_running_man = media.Movie("The Running Man",
+                      "Directed by Edgar Wright",
+                      "Starring: Glen Powell, William H Macy",
+                      "https://upload.wikimedia.org/wikipedia/en/4/49/The_Running_Man_2025_poster.jpg",
+                      "https://www.youtube.com/watch?v=KD18ddeFuyM",
+                      "November 7th, 2025")
 
-alien_covenant = media.Movie("Alien: Covenant",
-                            "Directed by Ridley Scott",
-                            "Starring: Michael Fassbender, Kathrine Waterston",
-                            "https://upload.wikimedia.org/wikipedia/en/3/33/Alien_Covenant_Teaser_Poster.jpg",
-                            "https://www.youtube.com/watch?v=u5KPP6lxRVg",
-                            "May 12th, 2017")
+eddington = media.Movie("Eddington",
+                            "Directed by Ari Aster",
+                            "Starring: Joaquin Pheonix, Pedro Pascal",
+                            "https://upload.wikimedia.org/wikipedia/en/2/25/Eddington_poster.jpg",
+                            "https://www.youtube.com/watch?v=oL6jZqExlIk",
+                            "July 18th, 2025")
 
-pirates_of_the_caribbean = media.Movie("Dead Men Tell No Tales",
-                                       "Directed by Joachim Ronning, Espen Sandberg",
-                                       "Starring: Johnny Depp, Javier Bardem",
-                                       "https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean%2C_Dead_Men_Tell_No_Tales.jpg",
-                                       "https://www.youtube.com/watch?v=XibzC-e_s5M",
-                                       "March 25th, 2017")
+stop_making_sense = media.Movie("Stop Making Sense",
+                                       "Directed by Jonathon Demme",
+                                       "Starring: David Byrne",
+                                       "https://upload.wikimedia.org/wikipedia/en/4/4e/Stop_making_sense_poster_original.jpg",
+                                       "https://www.youtube.com/watch?v=-rjMwSTeVeo&list=RD-rjMwSTeVeo&start_radio=1",
+                                       "September 23rd, 2023")
 
-king_arthur = media.Movie("King Arthur",
-                          "Directed by Guy Richie",
-                          "Starring: Charlie Hunnam, Astrid Berges-Frisbey",
-                          "https://upload.wikimedia.org/wikipedia/en/a/a4/King_Arthur_LotS_poster.jpg",
-                          "https://www.youtube.com/watch?v=SX9y5JPuRHY",
-                          "May 12th, 2017")
+project_hail_mary = media.Movie("Project Hail Mary",
+                          "Directed by Phil Lord and Christopher Miller",
+                          "Starring: Ryan Gosling",
+                          "https://upload.wikimedia.org/wikipedia/en/3/3b/Project_Hail_Mary_poster.jpg",
+                          "https://www.youtube.com/watch?v=m08TxIsFTRI",
+                          "March 20, 2026")
 
-atomic_blonde = media.Movie("Atomic Blonde",
-                           "Directed by David Leitch",
-                           "Starring: Charlize Theron, James McAvoy",
-                           "https://upload.wikimedia.org/wikipedia/en/b/b5/Atomic_Blonde_poster.jpg",
-                           "https://www.youtube.com/watch?v=yIUube1pSC0",
-                           "August 11th, 2017")
+tron_ares = media.Movie("Tron: Ares",
+                           "Directed by Joachim Rønning",
+                           "Starring: Jared Leto, Greta Lee",
+                           "https://upload.wikimedia.org/wikipedia/en/0/06/Tron_Ares_poster.jpg",
+                           "https://www.youtube.com/watch?v=YShVEXb7-ic",
+                           "October 10th, 2025")
 
-american_assassin = media.Movie("American Assassin",
-                               "Directed by Michael Cuesta",
-                               "Starring: Dylan O'Brien, Scott Adkins, Taylor Kitsch",
-                               "https://upload.wikimedia.org/wikipedia/en/5/5d/American_Assassin.jpg",
-                               "https://www.youtube.com/watch?v=XwHAGKxsbcg",
-                               "September 15th, 2017")
+american_sweatshop = media.Movie("American Sweatshop",
+                               "Directed by Uta Briesewitz",
+                               "Starring: Lili Reinhart",
+                               "https://upload.wikimedia.org/wikipedia/en/4/40/American_Sweatshop_poster.jpg", 
+                               "https://www.youtube.com/watch?v=ZhOUqeKL0Kg",
+                               "September 19th, 2025")
 
-thor_ragnarok = media.Movie("Thor: Ragnarok",
-                            "Directed by Taika Waititi",
-                            "Starring: Cate Blanchett, Chris Hemsworth",
-                            "https://upload.wikimedia.org/wikipedia/en/7/7d/Thor_Ragnarok_poster.jpg",
-                            "https://www.youtube.com/watch?v=v7MGUNV8MxU",
-                            "November 3rd, 2017")
+ballerina = media.Movie("Ballerina",
+                            "Directed by Len Wiseman",
+                            "Starring: Ana de Armas",
+                            "https://upload.wikimedia.org/wikipedia/en/f/f6/Ballerina_%282025_film%29_poster.jpg",
+                            "https://www.youtube.com/watch?v=0FSwsrFpkbw",
+                            "June 6th, 2025")
 
-bright = media.Movie("Bright",
-                     "Directed by David Ayer",
-                     "Starring: Will Smith, Joel Edgerton",
-                     "https://previews.123rf.com/images/carmendorin/carmendorin1401/carmendorin140100072/25118786-Grunge-rubber-stamps-with-text-Not-Available-and-Available-Coming-Soon-vector-illustration-Stock-Vector.jpg",
-                     "https://www.youtube.com/watch?v=59uAseJFh7M",
-                     "December 2017")
+nobody_2 = media.Movie("Nobody 2",
+                     "Directed by Timo Tjahjanto",
+                     "Starring: Bob Odenkirk",
+                     "https://upload.wikimedia.org/wikipedia/en/9/95/Nobody_2_Official_Poster.jpg",
+                     "https://www.youtube.com/watch?v=-5X2pt95cIo",
+                     "August 15th, 2025")
 
 # Create list of all movies
 movies = [
-    star_wars,
-    dunkirk,
-    alien_covenant,
-    pirates_of_the_caribbean,
-    king_arthur,
-    atomic_blonde,
-    american_assassin,
-    thor_ragnarok,
-    bright,
+    the_odyssey,
+    the_running_man,
+    eddington,
+    stop_making_sense,
+    project_hail_mary,
+    tron_ares,
+    american_sweatshop,
+    ballerina,
+    nobody_2,
 ]
 
 # Generate the movie trailer website
